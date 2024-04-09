@@ -1,0 +1,18 @@
+#login {
+    height: 100vh;
+    background: url("~@/assets/images/background.jpeg");
+    background-size: 100% 100%;
+    display: flex;
+    .login-card {
+        width: 400px;
+        margin: auto;
+        background: #ffffff20;
+        border: none;
+        .ant-form-item-label >label {
+            color: #fff;
+        }
+        .ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before{
+            display: none;
+        }
+    }
+}
